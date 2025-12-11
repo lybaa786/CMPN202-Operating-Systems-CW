@@ -30,8 +30,5 @@ Server's IP: 192.168.56.10 (I set this manually during installation)
 Used for: All remote administration via SSH
 
 System specifications:
-`uname`:
-`free`:
-`df -h`:
-`ip addr`:
-`lsb_release`:
+`uname`, `free`, `df -h`, `ip addr` and `lsb_release`:
+! [description 
