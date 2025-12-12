@@ -18,29 +18,31 @@ Step 3: Testing Key-Based Authentication:
 Step 4: Disabling Password Authentication:
 <img width="940" height="493" alt="image" src="https://github.com/user-attachments/assets/7a3e538f-f603-401b-83c4-e2e6f5468531" />
 
+SSH Access Evidence showing successful connection screenshots:
 I changed the passwordAuthentification to no:
 <img width="962" height="107" alt="image" src="https://github.com/user-attachments/assets/d84f41ee-b9e4-484c-834d-12e7f570d86d" />
-
 I also changed the PermitRootLogin to no and make sure the PubKeyAuthentification was set as yes:
 <img width="439" height="296" alt="image" src="https://github.com/user-attachments/assets/f3abae9f-4e1c-4e7b-bac8-49fd947dd6d3" />
 
 Step 5: Testing it on a new Terminal:
 
 
-3. Configure a firewall permitting SSH from one specific workstation only
+2. Configure a firewall permitting SSH from one specific workstation only:
 
 
-4. Manage users and implement privilege management, creating a non-root administrative user:
 
 
-5. SSH Access Evidence showing successful connection screenshots
 
 
-6. Configuration Files with before and after comparisons
 
 
-7. Firewall Documentation showing complete ruleset
 
 
-8. Remote Administration Evidence demonstrating commands executed via SSH
+
+Manage users and implement privilege management, creating a non-root administrative user:
+Configuration Files with before and after comparisons
+
+Firewall Documentation showing complete ruleset
+
+Remote Administration Evidence demonstrating commands executed via SSH
 
