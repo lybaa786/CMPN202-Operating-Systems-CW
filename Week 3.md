@@ -1,4 +1,4 @@
-Phase 3: Application Selection for Performance Testing
+<img width="940" height="487" alt="image" src="https://github.com/user-attachments/assets/0c981be9-3450-42d8-a077-ecb3e0ff10c7" />Phase 3: Application Selection for Performance Testing
 
 1. Application Selection Matrix:
 <img width="550" height="359" alt="image" src="https://github.com/user-attachments/assets/d797145f-999f-4fd6-babe-721076696c9b" />
@@ -32,5 +32,11 @@ I have created a table which documents the anticipated resource usage of each ap
 <img width="1114" height="640" alt="image" src="https://github.com/user-attachments/assets/90767a29-70e8-484e-8746-f958b9ff6c03" />
 
 4. Monitoring Strategy:
-For my measurement approach I will use a combination of real-time monitoring tools and logging commands, all executed via SSH. This develops the remote monitoring skills essential for professional server administration.
+For my measurement approach I will use a combination of real-time monitoring tools and logging commands, all executed via SSH. This develops the remote monitoring skills essential for professional server administration. I have created a table which demonstrates this:
+<img width="1038" height="732" alt="image" src="https://github.com/user-attachments/assets/0fe4b266-e7ef-411e-a8d3-7ab739c189d3" />
 
+Running Application:
+<img width="940" height="487" alt="image" src="https://github.com/user-attachments/assets/23830265-e932-465f-861b-bfd4e177bb76" />
+
+This shows that my SSH is fully working!
+Next I will use these commands in later weeks!
