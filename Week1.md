@@ -33,6 +33,13 @@ Adapter 2: Host-Only Network
 - Server's IP: 192.168.56.10 (I set this manually during installation)
 - Used for: All remote administration via SSH
 
+Using both adapters simultaneously provides:
+- Internet access for legitimate purposes (updates, packages)
+- Isolated management network for SSH
+- Security through isolation from home network
+
+This dual-adapter approach mirrors enterprise network designs where management networks are separated from production networks.
+
 5. System specifications:
 `uname`, `free`, `df -h`, `ip addr` and `lsb_release`:
 ![System Specifications] <img width="594" height="400" alt="System Specifications" src="https://github.com/user-attachments/assets/9d448c38-eee3-4f0a-9dc1-7ab9d0fb43e5" />
