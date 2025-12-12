@@ -1,4 +1,4 @@
-<img width="940" height="487" alt="image" src="https://github.com/user-attachments/assets/0c981be9-3450-42d8-a077-ecb3e0ff10c7" />Phase 3: Application Selection for Performance Testing
+Phase 3: Application Selection for Performance Testing
 
 1. Application Selection Matrix:
 <img width="550" height="359" alt="image" src="https://github.com/user-attachments/assets/d797145f-999f-4fd6-babe-721076696c9b" />
