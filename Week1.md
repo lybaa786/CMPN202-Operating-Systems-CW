@@ -31,4 +31,5 @@ Used for: All remote administration via SSH
 
 System specifications:
 `uname`, `free`, `df -h`, `ip addr` and `lsb_release`:
-![System Specifications] (https://github.com/lybaa786/CMPN202-Operating-Systems-CW/blob/94de289c88faafc44fa0858a60b62ffc01b50e9e/System%20Specifications.png)
+![System Specifications] <img width="594" height="400" alt="System Specifications" src="https://github.com/user-attachments/assets/9d448c38-eee3-4f0a-9dc1-7ab9d0fb43e5" />
+
