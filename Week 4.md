@@ -16,21 +16,22 @@ Step 3: Testing Key-Based Authentication:
 <img width="1441" height="680" alt="image" src="https://github.com/user-attachments/assets/a3d86423-5e17-4d0b-b538-951ae5b507f7" />
 
 Step 4: Disabling Password Authentication:
-<img width="940" height="493" alt="image" src="https://github.com/user-attachments/assets/7a3e538f-f603-401b-83c4-e2e6f5468531" />
+<img width="1811" height="793" alt="image" src="https://github.com/user-attachments/assets/1dd28db0-6493-446b-b108-d5701665aa72" />
 
 SSH Access Evidence showing successful connection screenshots:
 I changed the passwordAuthentification to no:
-<img width="962" height="107" alt="image" src="https://github.com/user-attachments/assets/d84f41ee-b9e4-484c-834d-12e7f570d86d" />
+<img width="969" height="106" alt="image" src="https://github.com/user-attachments/assets/5cf3d2cf-95e2-4e97-9266-589f2ec0fb2d" />
 
 I also changed the PermitRootLogin to no and made sure the PubKeyAuthentification was set as yes:
-<img width="439" height="296" alt="image" src="https://github.com/user-attachments/assets/f3abae9f-4e1c-4e7b-bac8-49fd947dd6d3" />
+<img width="411" height="225" alt="image" src="https://github.com/user-attachments/assets/80d7ff25-f54b-401c-b9fb-4ac2fae49e75" />
 
 Step 5: Testing it on a new Terminal:
-ADDDDDD THEEEEE LASSSSTTTTT STEPPPPP:!!! 
+<img width="1091" height="554" alt="image" src="https://github.com/user-attachments/assets/83367792-43f6-4612-8753-b1ba6c84fcfc" />
 
 Remote Administration - Commands were run remotely over SSH using the vboxuser@OSCM account.
 
 2. Configure a firewall permitting SSH from one specific workstation only:
+
 Step 1: Checking the UFW Status:
 <img width="827" height="251" alt="image" src="https://github.com/user-attachments/assets/23a96f9a-32e5-4a27-8b46-c5d5c15b17b2" />
 
