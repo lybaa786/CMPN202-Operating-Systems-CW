@@ -1,3 +1,5 @@
+Week 1: System Planning and Distribution Selection
+
 1. System Architecture Diagram:
 <img width="441" height="341" alt="system architecture diagram" src="https://github.com/user-attachments/assets/1bd14098-2879-49d7-a992-05973435f06f" />
 
