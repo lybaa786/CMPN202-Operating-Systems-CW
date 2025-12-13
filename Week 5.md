@@ -7,11 +7,10 @@ AppArmor runs in either Enforce mode (blocks violations) or Complain mode (only 
 Step 1: Verifying AppArmor is Running:
 
 
-Step 2: Review Active Profiles
+Step 2: Review Active Profiles:
 
-Step 3:
+Step 3: Checking SSH Profile Specifically:
 
 Step 4:
-
 
 
