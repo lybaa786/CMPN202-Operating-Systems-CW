@@ -126,6 +126,35 @@ Result: File system risks were identified and mitigated through preventative har
 Result: Stronger password and authentication controls were enforced to reduce credential-based attack risk.
 <img width="937" height="405" alt="image" src="https://github.com/user-attachments/assets/6413a85a-be62-4ac5-9a69-980ad4400caf" />
 
-3.4: 
+3.4: Service Hardening and Minimisation:
+<img width="1238" height="986" alt="image" src="https://github.com/user-attachments/assets/6e30d53b-a920-4332-b730-e44985004741" />
+
+*Disabling CUPS* - Not required on a server system, reduces attack surface and minimises system exposure.
+<img width="1613" height="219" alt="image" src="https://github.com/user-attachments/assets/0f20cb40-d771-454d-9eb3-1eab622c52bd" />
+
+3.5: Audit Logging Enhancement:
+
+*installing auditd:*
+<img width="1478" height="967" alt="image" src="https://github.com/user-attachments/assets/ec3b6f1e-a2cd-4eee-867d-aea28d8ebf43" />
+
+*enabling it - it shows that the status is active (running):*
+<img width="1666" height="485" alt="image" src="https://github.com/user-attachments/assets/9708feb8-eab7-41bb-8f5f-c5fc056989c9" />
+
+3.6: Re-running Lynis After Hardening:
+
+*running Lynis audit again, saving the post-hardening report, extracting new hardening index and comparing warnings before and after*
+<img width="1256" height="701" alt="image" src="https://github.com/user-attachments/assets/7d923e5d-a738-40cc-bef3-0dc1124a84c7" />
+
+Lynis Audit Comparison Table:
+<img width="1121" height="510" alt="image" src="https://github.com/user-attachments/assets/c193b56b-ba95-4512-8450-2e01bec69ff0" />
+
+ANALYSIS: Kernel security hardening, SSH configuration hardening, and firewall enforcement had the most impact on Lynis score beacuse:
+- Kernel parameter adjustments reduced network-related warnings, while disabling SSH root login.
+- Strengthening authentication controls addressed high-impact security findings.
+- Enabling audit logging and removing unnecessary services further reduced the number of warnings and improved the overall hardening index.
+
+3.7: Final Security Baseline Verification:
+
+
 
 
