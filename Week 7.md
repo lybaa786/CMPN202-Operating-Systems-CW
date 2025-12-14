@@ -98,16 +98,28 @@ Firewall Effectiveness Testing:
 *listing all running services*:
 <img width="1581" height="818" alt="image" src="https://github.com/user-attachments/assets/427c410c-1277-4002-a33e-0f69478a82cc" />
 
+Service inventory table:
+<img width="1264" height="777" alt="image" src="https://github.com/user-attachments/assets/c27cd4d1-ce22-4071-9d51-31f055d5990e" />
 
+Removing unnecessary services such as CUPS reduces exposure to potential vulnerabilities and aligns the system with the principle of least privilege.
 
+Part 3: Security Hardening Implementation:
 
-Lynis scores before and after remediation:
+3.1: Implementing Kernel Security Hardening:
+*Editing system control configuration, adding kernel security parameters, applying and verifying*:
+<img width="1488" height="837" alt="image" src="https://github.com/user-attachments/assets/4c174379-49dd-4e95-9e87-f6b1e00c7f0d" />
 
-Network security testing results:
+Kernel Hardening Configuration:
+<img width="1255" height="652" alt="image" src="https://github.com/user-attachments/assets/937f2b4c-75f0-43ae-a015-3c6d36a80663" />
 
-SSH security verification:
+3.2: File System Security Hardening: 
+<img width="1662" height="165" alt="image" src="https://github.com/user-attachments/assets/f77557e6-13be-4672-8b2e-896a7250821d" />
 
-Service inventory with justifications:
+3.3: Password and Authentication Hardening:
+<img width="864" height="144" alt="image" src="https://github.com/user-attachments/assets/3769dd36-1cfb-44f1-9cb5-469c6f9eb96b" />
+<img width="1182" height="827" alt="image" src="https://github.com/user-attachments/assets/dd52e280-d898-41f5-904a-9571f81e7a26" />
+<img width="1113" height="229" alt="image" src="https://github.com/user-attachments/assets/800995df-f67f-4af9-9a2d-a230b461e123" />
 
-Remaining risk assessment:
+3.4: 
+
 
