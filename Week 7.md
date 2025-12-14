@@ -1,10 +1,8 @@
 Phase 7: Security Audit and System Evaluation
 
-1. Installing and Running Lynis:
-<img width="1341" height="924" alt="image" src="https://github.com/user-attachments/assets/55246f42-c16e-4ce3-ac09-65a7bce7da9c" />
+Part 1: Initial Security Assessment with Lynis
 
-*Checking Lynis Version*:
-<img width="663" height="110" alt="image" src="https://github.com/user-attachments/assets/3de20274-183f-4e83-86c9-f0e0a3f61dff" />
+1.1: Installing and Running Lynis:
 
 *Running comprehensive security audit*:
 <img width="916" height="896" alt="image" src="https://github.com/user-attachments/assets/aeffe0d3-f4d9-4a50-a425-0fe7acd6c12b" />
@@ -14,10 +12,7 @@ Phase 7: Security Audit and System Evaluation
 
 This shows Lynis audit in progress.
 
-*Saving Audit Report*:
-<img width="1738" height="179" alt="image" src="https://github.com/user-attachments/assets/c97cb13d-14d7-46cd-9caf-5e6055e67951" />
-
-2. Analysing Lynis Results:
+1.2: Analysing Lynis Results:
 
 *Extracting Hardening index*:
 <img width="1401" height="81" alt="image" src="https://github.com/user-attachments/assets/126cec58-4914-405b-8cf3-c95e2faa9341" />
@@ -33,10 +28,42 @@ This shows Lynis audit in progress.
 <img width="1709" height="823" alt="image" src="https://github.com/user-attachments/assets/136b8c39-10ef-49ad-b74a-8d4adf7c23c5" />
 
 Audit summary table:
+<img width="823" height="587" alt="image" src="https://github.com/user-attachments/assets/f89723c5-8948-4334-a722-bcd7c83c2bf2" />
+
+10 Most Critical Lynis Warnings:
+
+- SSH root login enabled: This allows direct login as the root user over SSH. If compromised, an attacker gains full system control immediately. Best practice is to disable root login and use sudo.
+- Firewall not enabled or not properly configured: Without an active firewall, all open services may be accessible from the network, increasing exposure to external attacks.
+- Weak SSH configuration settings detected: Default SSH settings may allow insecure ciphers, protocols, or unlimited login attempts, making brute-force attacks more likely.
+- Automatic security updates not enabled: Security patches are not applied automatically, leaving the system vulnerable to known exploits until manual updates are performed.
+- Outdated or unnecessary services running: Services that are not required increase the system’s attack surface and may contain exploitable vulnerabilities.
+- Insecure file permissions on system files: Files with overly permissive access rights can allow unauthorised users to read or modify sensitive data.
+- Audit logging not fully configured: Incomplete logging reduces the ability to detect, investigate, and respond to security incidents.
+- Log rotation not configured: Log files may grow indefinitely, potentially filling disk space and preventing important system services from functioning correctly.
+- Kernel hardening parameters not optimised (sysctl): Missing kernel security settings reduce protection against network-based and privilege escalation attacks.
+- Password policy not sufficiently enforced: Weak password complexity or ageing policies increase the risk of credential compromise through guessing or brute-force attacks.
+
+1.3: Prioritising Security Improvements:
+<img width="1147" height="735" alt="image" src="https://github.com/user-attachments/assets/dfe6523a-d030-42d5-8423-88d51a0f33c3" />
+
+Part 2: Network Security Assessment:
+2.1: Port Scanning with nmap:
+
+*Verifying nmap version*:
+<img width="1810" height="302" alt="image" src="https://github.com/user-attachments/assets/01aa4d5c-a274-4f05-b4ff-343fc7843d5f" />
+
+*Basic port scan and service version (sV) detection scan*:
+<img width="1290" height="405" alt="image" src="https://github.com/user-attachments/assets/ac257eea-3d48-4cd3-a668-123adf3e454f" />
+
+*scanning common parts and ALL parts and saving it to file*:
+<img width="1242" height="406" alt="image" src="https://github.com/user-attachments/assets/385197c6-16b7-4b27-a93d-5dd306ee7e35" />
+
+*attempting OS detection*:
+<img width="1239" height="201" alt="image" src="https://github.com/user-attachments/assets/db234719-58ec-4c48-9be0-16e456c94236" />
 
 
 
-Infrastructure security assessment:
+
 
 Lynis scores before and after remediation:
 
