@@ -89,8 +89,14 @@ Firewall Effectiveness Testing:
 
 2.3: Analysing Running Services:
 
+*listing all listening services:*
+<img width="1515" height="406" alt="image" src="https://github.com/user-attachments/assets/4dd6b653-d930-4aa9-b261-4298973042bc" />
 
+*identifying services by process:*:
+<img width="1228" height="424" alt="image" src="https://github.com/user-attachments/assets/97b1ca7b-9a34-477e-9abe-3d3960ebbe42" />
 
+*listing all running services*:
+<img width="1581" height="818" alt="image" src="https://github.com/user-attachments/assets/427c410c-1277-4002-a33e-0f69478a82cc" />
 
 
 
