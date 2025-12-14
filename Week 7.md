@@ -61,6 +61,8 @@ Part 2: Network Security Assessment:
 *attempting OS detection*:
 <img width="1239" height="201" alt="image" src="https://github.com/user-attachments/assets/db234719-58ec-4c48-9be0-16e456c94236" />
 
+Port Inventory Table:
+<img width="1151" height="434" alt="image" src="https://github.com/user-attachments/assets/98418385-3d8a-46fa-9800-a4218ddf37fe" />
 
 
 
