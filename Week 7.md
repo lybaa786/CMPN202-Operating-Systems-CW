@@ -47,6 +47,7 @@ Audit summary table:
 <img width="1147" height="735" alt="image" src="https://github.com/user-attachments/assets/dfe6523a-d030-42d5-8423-88d51a0f33c3" />
 
 Part 2: Network Security Assessment:
+
 2.1: Port Scanning with nmap:
 
 *Verifying nmap version*:
@@ -63,6 +64,33 @@ Part 2: Network Security Assessment:
 
 Port Inventory Table:
 <img width="1151" height="434" alt="image" src="https://github.com/user-attachments/assets/98418385-3d8a-46fa-9800-a4218ddf37fe" />
+
+2.2: Verifying Firewall Effectiveness:
+
+*reviewing complete firewall configuration*:
+<img width="979" height="535" alt="image" src="https://github.com/user-attachments/assets/9f21392b-0fc9-4d91-bd51-e75e001ff290" />
+
+*verifying default policies*:
+<img width="1649" height="860" alt="image" src="https://github.com/user-attachments/assets/bcc88cb4-21c8-4a9c-996b-994ba655bde5" />
+....
+
+*checking iptables rules directly*:
+<img width="1497" height="838" alt="image" src="https://github.com/user-attachments/assets/fbec2702-d0d5-4dd8-980d-78fda6a4d9f0" />
+....
+
+*documenting firewall configuration and testing firewall from workstation by attempting connections to blocked ports*:
+<img width="1307" height="189" alt="image" src="https://github.com/user-attachments/assets/da344955-dde3-45c8-8c9f-b432105b773e" />
+
+Firewall Ruleset Documentation:
+<img width="1478" height="560" alt="image" src="https://github.com/user-attachments/assets/840d5375-1a6c-4367-9109-b4ffde8d3c4e" />
+
+Firewall Effectiveness Testing:
+<img width="1455" height="250" alt="image" src="https://github.com/user-attachments/assets/5dcd8774-a1c2-4f3d-9de0-8eed3807a366" />
+
+2.3: Analysing Running Services:
+
+
+
 
 
 
