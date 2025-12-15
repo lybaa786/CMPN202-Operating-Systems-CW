@@ -67,79 +67,36 @@ Fail2ban monitors log files (/var/log/auth.log) for suspicious activity (failed 
 <img width="1822" height="709" alt="image" src="https://github.com/user-attachments/assets/49dd0adb-deaf-4df0-aacc-7c30c00299cc" />
 
 *locating the [sshd] section and configure*:
+
 <img width="415" height="210" alt="image" src="https://github.com/user-attachments/assets/a6adaea1-5095-4198-868f-37b5f9786982" />
 
 4.  Security baseline verification script:
 
 #!/bin/bash
-# security-baseline.sh
-# This script verifies key system security controls as part of the baseline assessment
+#security-baseline.sh
 
-echo "Security Baseline Verification Report"
-# Displays a header for clarity in output
-
-date
-# Prints the date and time the script was executed
-
-hostname
-# Displays the system hostname
-
-hostname -I
-# Shows the system IP address
-
-echo "SSH Security Configuration"
-# Section header for SSH configuration checks
-
-grep "^PasswordAuthentication no" /etc/ssh/sshd_config
-# Verifies that password authentication is disabled
-
-grep "^PermitRootLogin no" /etc/ssh/sshd_config
-# Confirms root login over SSH is disabled
-
-grep "^PubkeyAuthentication yes" /etc/ssh/sshd_config
-# Confirms public key authentication is enabled
-
-echo "Firewall Configuration"
-# Section header for firewall checks
-
-ufw status
-# Displays firewall status and active rules
-
-echo "Intrusion Detection (Fail2Ban)"
-# Section header for intrusion detection
-
-systemctl status fail2ban
-# Checks whether the Fail2Ban service is running
-
-echo "Mandatory Access Control"
-# Section header for MAC system
-
-aa-status
-# Displays AppArmor status and enforced profiles
-
-echo "Administrative Users"
-# Section header for privileged users
-
-getent group sudo
-# Lists users with sudo (administrative) privileges
-
-echo "Automatic Security Updates"
-# Section header for update configuration
-
-systemctl status unattended-upgrades
-# Confirms automatic security updates are enabled
-
-echo "System Resources"
-# Section header for system health checks
-
-free -h
-# Displays memory usage
-
-df -h /
-# Displays disk usage for the root filesystem
-
-echo "Security Baseline Verification Complete"
-# Indicates the script has finished running
+echo "Security Baseline Verification Report" - Displays a header for clarity in output
+date - Prints the date and time the script was executed
+hostname - Displays the system hostname
+hostname -I - Shows the system IP address
+echo "SSH Security Configuration" - Section header for SSH configuration checks
+grep "^PasswordAuthentication no" /etc/ssh/sshd_config - Verifies that password authentication is disabled
+grep "^PermitRootLogin no" /etc/ssh/sshd_config - Confirms root login over SSH is disabled
+grep "^PubkeyAuthentication yes" /etc/ssh/sshd_config - Confirms public key authentication is enabled
+echo "Firewall Configuration" - Section header for firewall checks
+ufw status - Displays firewall status and active rule
+echo "Intrusion Detection (Fail2Ban)" - Section header for intrusion detection
+systemctl status fail2ban - Checks whether the Fail2Ban service is running
+echo "Mandatory Access Control" - Section header for MAC system
+aa-status - Displays AppArmor status and enforced profiles
+echo "Administrative Users" - Section header for privileged users
+getent group sudo - Lists users with sudo (administrative) privileges
+echo "Automatic Security Updates" - Section header for update configuration
+systemctl status unattended-upgrades - Confirms automatic security updates are enabled
+echo "System Resources" - Section header for system health checks
+free -h - Displays memory usage
+df -h / - Displays disk usage for the root filesystem
+echo "Security Baseline Verification Complete" - Indicates the script has finished running
 
 <img width="766" height="786" alt="image" src="https://github.com/user-attachments/assets/c16e2299-ecee-4dbc-a5ac-0ac9b316bebe" />
 
@@ -150,33 +107,15 @@ The baseline verification script confirms that essential security controls are c
 5.  Remote monitoring script:
 
 #!/bin/bash
-# monitor-server.sh
-# This script remotely monitors server performance metrics using SSH
-
-echo "Remote Server Monitoring Report"
-# Prints a header for the monitoring report
-
-date
-# Displays the time the monitoring check was performed
-
-echo "Monitoring: username@server_ip"
-# Indicates the remote server being monitored
-
-LOGFILE="monitoring-$(date +%Y%m%d_%H%M%S).log"
-# Creates a timestamped log file to store monitoring output
-
-echo "Log file: $LOGFILE"
-# Displays the log file name
-
-echo "Testing SSH connection..."
-# Tests SSH connectivity to the remote server
-
-ssh username@server_ip "uptime"
-# Collects CPU load averages from the remote server
-
-ssh username@server_ip "free -h"
-# Collects memory usage statistics from the remote server
-
+#monitor-server.sh
+echo "Remote Server Monitoring Report" - Prints a header for the monitoring report
+date - Displays the time the monitoring check was performed
+echo "Monitoring: username@server_ip" - Indicates the remote server being monitored
+LOGFILE="monitoring-$(date +%Y%m%d_%H%M%S).log" - Creates a timestamped log file to store monitoring output
+echo "Log file: $LOGFILE" - Displays the log file name
+echo "Testing SSH connection..." - Tests SSH connectivity to the remote server
+ssh username@server_ip "uptime" - Collects CPU load averages from the remote server
+ssh username@server_ip "free -h" - Collects memory usage statistics from the remote server
 ssh vboxuser@192.168.56.101 "_
 
 <img width="1810" height="888" alt="image" src="https://github.com/user-attachments/assets/ba847259-9be9-476f-afed-9d7cfb74e3b9" />
