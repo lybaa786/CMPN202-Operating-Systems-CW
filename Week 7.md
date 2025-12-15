@@ -155,6 +155,11 @@ ANALYSIS: Kernel security hardening, SSH configuration hardening, and firewall e
 
 3.7: Final Security Baseline Verification:
 
+*running your security baseline script from Week 06:*
+<img width="1653" height="957" alt="image" src="https://github.com/user-attachments/assets/7ffa6b75-a28b-4053-8109-1aec536df09c" />
 
+*saving the final security baseline output:*
+<img width="1661" height="458" alt="image" src="https://github.com/user-attachments/assets/d7f55fe1-0fa8-4eb0-84e1-8085886bf40f" />
 
-
+Remaining Issues and Warnings and how I can fix them for later:
+<img width="1384" height="634" alt="image" src="https://github.com/user-attachments/assets/7aa99cb1-23b1-410f-a390-5c93db773c4b" />
